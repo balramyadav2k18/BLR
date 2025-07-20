@@ -119,11 +119,13 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-gray-200;
   }
 
   body {
-    @apply bg-background text-foreground font-inter;
+    font-family: 'Inter', sans-serif;
+    background-color:hsl(var(--background));
+    color: hsl(var(--foreground)); 
   }
 }
 
